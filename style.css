@@ -21,6 +21,10 @@ body {
     min-height: 100vh;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .title {
     font-family: "Oswald", "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 3rem;
