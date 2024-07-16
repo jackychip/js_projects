@@ -52,6 +52,11 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 1.5rem;
+    transition: font-size 100ms linear;
+}
+
+.box:hover {
+    font-size: 1.52rem;
 }
 
 .box p {
