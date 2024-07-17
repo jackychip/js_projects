@@ -1,0 +1,45 @@
+/* IMPORTS */
+
+/* ROOT */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: #3299c2;
+}
+
+/* STOPWATCH CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #292929;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFFFFF;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: light;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
