@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/f45e468bc8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="music-container">
+                <nav>
+                    <div class="circle">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="circle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+                <img src="./assets/thumbnail.jpg" class="thumbnail"/>
+                <h1>Say</h1>
+                <p>keshi</p>
+                <audio id="audio-control">
+                    <source src="./assets/music.mp3" type="audio/mp3">
+                </audio>
+                <input type="range" value="0" id="progress-bar">
+                <div class="controls">
+                    <div><i class="fa-solid fa-backward"></i></div>
+                    <div onClick="playPause()"><i class="fa-solid fa-play" id="pause-play-control"></i></i></div>
+                    <div><i class="fa-solid fa-forward"></i></div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
