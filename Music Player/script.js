@@ -2,6 +2,8 @@ const progressBar = document.getElementById("progress-bar");
 const audioElement = document.getElementById("audio-control");
 const pausePlayElement = document.getElementById("pause-play-control");
 
+audioElement.pause();
+
 audioElement.onloadedmetadata = () => {
     progressBar.max = audioElement.duration;
     progressBar.value = audioElement.currentTime;
