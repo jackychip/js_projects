@@ -1,5 +1,6 @@
 let [centiseconds, seconds, minutes, hours] = [0, 0, 0, 0];
 let timeDisplay = document.getElementById("time-display");
+const playButton = document.getElementById("play-button");
 
 let toggleRunning = false; 
 let timer = null;
@@ -37,6 +38,10 @@ const clickStopwatch = () => {
 
     if (!toggleRunning) {
         stopStopwatch();
+        playButton.src = "./images/start.png";
+    }
+    else {
+        playButton.src = "./images/pause.png";
     }
 }
 
