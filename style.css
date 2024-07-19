@@ -40,6 +40,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     flex-wrap: wrap;
     width: 90%;
+    max-width: 1600px;
     margin: 50px auto 100px;
     gap: 2rem;
 }
