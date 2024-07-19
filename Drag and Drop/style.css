@@ -15,7 +15,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #862525, #260e5f);
+    background: #c29292;
     display: flex;
     align-items: center;
     justify-content: center;
